@@ -1,12 +1,16 @@
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 :root {
   --button: #f1c40f;
-  --font-family: Lato, "Lucida Grande", "Lucida Sans Unicode", Tahoma,
+  --font-family:
+    "Lato",
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    "Tahoma",
     sans-serif;
   --primary: #222;
   --link: #333;
