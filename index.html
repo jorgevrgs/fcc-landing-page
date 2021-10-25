@@ -1,0 +1,77 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        id="header-img"
+      />
+      <nav id="nav-bar">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div id="hero">
+        <h2 class="title">Handcrafted, home-made masterpieces</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            type="email"
+            id="email"
+            required
+            name="email"
+            placeholder="Enter your email address"
+          />
+          <input id="submit" type="submit" value="Get Started" />
+        </form>
+      </div>
+
+      <div class="content">
+        <div id="features">
+          <ul>
+            <li>
+              <span class="icon"></span>
+              <span class="title">Premium Materials</span>
+              <span class="subtitle"
+                >Our trombones use the shiniest brass which is sourced locally.
+                This will increase the longevity of your purchase.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div id="how-it-works">
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/bzlFvd0b65c"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div id="pricing"></div>
+      </div>
+    </main>
+  </body>
+</html>
