@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# Landing Page
 
-> The portfolio is a project built with development best practices such as HTML semantic tags, CSS prefixes, Linters, and more.
+> The landing page is a project built with development best practices such as HTML semantic tags, CSS prefixes, Linters, and more.
 
 ![screenshot](./assets/images/app_screenshot.png)
 
@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://jorgevrgs.github.io/portfolio)
+[Live Demo Link](https://jorgevrgs.github.io/fcc-landing-page)
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ When the process is completed enter to the folder:
 cd portfolio
 ```
 
-As an alternative, to download the code, open the repository link [here](https://github.com/jorgevrgs/portfolio), and look for the green button `Code` and then click on the option `Download ZIP`.
+As an alternative, to download the code, open the repository link [here](https://github.com/jorgevrgs/fcc-landing-page), and look for the green button `Code` and then click on the option `Download ZIP`.
 
 ### Install
 
